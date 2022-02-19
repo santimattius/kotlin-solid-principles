@@ -1,19 +1,19 @@
-package single_responsiblity_principle
+package single_responsiblity_principle.end
 
-data class Vehicle2(
+data class Vehicle(
     val wheelCount: Int,
     val maxSpeed: Int
 )
 
 class VehiclePrinter {
 
-    fun print(vehicle2: Vehicle2) = with(vehicle2) {
+    fun print(vehicle: Vehicle) = with(vehicle) {
         println("wheelCount: $wheelCount, maxSpeed:$maxSpeed")
     }
 }
 
 fun main() {
-    val vehicle = Vehicle2(wheelCount = 4, maxSpeed = 120)
+    val vehicle = Vehicle(wheelCount = 4, maxSpeed = 120)
     val printer = VehiclePrinter()
     printer.print(vehicle)
 }
