@@ -21,6 +21,8 @@ class Vehicle(
 }
 ```
 
+Apply this principle
+
 ```kotlin
 
 data class Vehicle(
