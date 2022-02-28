@@ -1,5 +1,5 @@
 # SOLID Principles in Kotlin
-Note of the SOLID Principles
+SOLID Principles notes.
 
 <p align="center">
   <img width="500" src="https://github.com/santimattius/kotlin-solid-principles/blob/master/solid_image_project.png?raw=true" alt="SOLID"/>
